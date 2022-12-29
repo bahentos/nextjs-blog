@@ -3,10 +3,17 @@ import cl from 'classnames'
 import s from './index.module.scss'
 
 const Button = ({
-  className  
+  className,
+  children,
+  onClick,
+  disabled,
 }) => {
   return (
-    <div>Button</div>
+    <button
+      className={cl(className, s.button)}
+      onClick={onClick}
+      disabled={disabled}
+    >{children}</button>
   )
 }
 
