@@ -1,0 +1,31 @@
+{
+  "name": "nextjs-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@sanity/block-content-to-react": "3.0.0",
+    "@sanity/client": "3.4.1",
+    "@sanity/image-url": "1.0.1",
+    "classnames": "2.3.2",
+    "date-fns": "2.29.3",
+    "next": "12.3.1",
+    "next-sanity-image": "^5.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "4.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1",
+    "sass": "1.57.0",
+    "typescript": "4.9.4"
+  }
+}
